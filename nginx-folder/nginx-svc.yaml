@@ -6,7 +6,7 @@ metadata:
     run: nginx-app-service
 spec:
   ports:
-  - port: 2700
+  - port: 80
     protocol: TCP
   selector:
     run: nginx-app
